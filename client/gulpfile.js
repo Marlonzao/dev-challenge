@@ -98,14 +98,14 @@ var path = {
   ],
   // Pacotes de terceiros que devem ser comprimidos e movidos para dist/js/vendor.js
   VENDOR: [
-    'node_modules/jquery/dist/jquery.min.js',
-    'node_modules/bootstrap/dist/js/bootstrap.min.js',
     'node_modules/angular/angular.min.js',
     'node_modules/@uirouter/angularjs/release/angular-ui-router.min.js',
     'node_modules/angular-animate/angular-animate.min.js',
     'node_modules/angular-strap/dist/angular-strap.min.js',
     'node_modules/angular-xeditable/dist/js/xeditable.min.js',
-    'node_modules/angular-sanitize/angular-sanitize.min.js'
+    'node_modules/angular-sanitize/angular-sanitize.min.js',
+    // 'node_modules/jquery/dist/jquery.min.js',
+    // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
   ],
   // Pasta de destino dos arquivos que passam por tarefas de minificação,
   // compressão, concatenação, conversão, ou simplesmente troca de diretório
